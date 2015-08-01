@@ -1,0 +1,13 @@
+{application,hstdlib,
+             [{description,[]},
+              {vsn,"1.0.0"},
+              {modules,[hdynamic_compile,hetsutil,hfile,
+                        hgenerate_info_header_file,hlogger_h,hloglevel,hmmake,
+                        hmod_rand,hmod_timer,hphp_parser,hrecord_to_code,
+                        hstdlib_app,hstdlib_sup,hsysinfo,htable_to_record,
+                        lib_http_client,lib_words_ver,record_info,reloader,
+                        uuid]},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {mod,{hstdlib_app,[]}},
+              {env,[]}]}.
